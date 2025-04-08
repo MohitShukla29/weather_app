@@ -29,7 +29,7 @@ A Flutter-based weather dashboard designed to deliver real-time weather data, a 
 ### Loading Screen
 <img src="Loading_screen.png" width="250" >
 ### Location Screen
-<img src="  City_detail_screen.png" width="250" >
+<img src="City_detail_screen.png" width="250" >
 ### City Screen
 <img src="city_search_screen.png" width="250" >
 
