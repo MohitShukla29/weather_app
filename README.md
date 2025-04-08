@@ -1,16 +1,56 @@
-# weather_app_assignment
+# 🌦️ Weather Dashboard  
+A Flutter-based weather dashboard designed to deliver real-time weather data, a 5-day forecast, and offline-ready recent searches — powered by the **OpenWeatherMap API**.
 
-A new Flutter project.
+---
 
-## Getting Started
+## ⚡ Tech Stack
 
-This project is a starting point for a Flutter application.
+- **Flutter**
+- **OpenWeatherMap API**
+- **Provider** (State Management)
+- **SharedPreferences** (Local Caching)
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Current Weather**: Temperature, condition, humidity, wind speed, sunrise & sunset.
+- **5-Day Forecast**: Horizontally scrollable forecast with weather icons.
+- **Search History**: Stores recent city searches using local storage.
+- **Autocomplete Search**: City suggestions as you type.
+---
+
+
+## 📸 Screenshots
+
+> Include your app screenshots here. Example format below:
+
+
+### Loading Screen
+<img src="Loading_screen.png" width="250" >
+### Location Screen
+<img src="city_detail_screen_screen.png" width="250" >
+### City Screen
+<img src="city_search_screen.png" width="250" >
+
+
+## 🛠 Setup Instructions
+
+```bash
+# 1. Clone the project
+https://github.com/MohitShukla29/weather_app.git
+
+# 2. Navigate to the project folder
+cd weather_app_assignment
+
+# 3. Get the Flutter packages
+flutter pub get
+
+# 4. Run the app
+flutter run
+```
+## Location Permission
+This app requires location access to fetch the weather data for your current location.
+
+On first launch, the app will ask for location permission.
+
